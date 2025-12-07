@@ -135,7 +135,7 @@ const Home = () => {
               title="Dimension Measurement"
               description="Precise geometric analysis of components. Measure dimensions of shapes like squares, triangles, and polygons using advanced image processing."
               // To use your local image, change the src below to: require('../Screenshot (65).png')
-              imgSrc="https://placehold.co/600x400/1A202C/FFFFFF?text=Dimension+Measurement" 
+              imgSrc={require('../Screenshot (171).png')} 
             />
           </SimpleGrid>
         </Container>
