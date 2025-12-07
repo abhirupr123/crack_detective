@@ -3,12 +3,12 @@ import { initializeApp } from "firebase/app";
 import {createUserWithEmailAndPassword, 
   getAuth, signOut, signInWithEmailAndPassword, onAuthStateChanged} from 'firebase/auth'
 const firebaseConfig = {
-  apiKey: "AIzaSyCjyR38dcLeSJKoLskMO1ZqIFhgFxGXan4",
+  apiKey: "MY API KEY",
   authDomain: "crack-detection-c6bae.firebaseapp.com",
-  projectId: "crack-detection-c6bae",
+  projectId: "MY PROJECT ID",
   storageBucket: "crack-detection-c6bae.appspot.com",
-  messagingSenderId: "448340358524",
-  appId: "1:448340358524:web:bfff496616f57c18df20f9"
+  messagingSenderId: "SENDER ID",
+  appId: "MY APP ID"
 };
 const FirebaseContext=createContext(null);
 const app = initializeApp(firebaseConfig);
