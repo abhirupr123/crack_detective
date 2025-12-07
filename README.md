@@ -72,7 +72,6 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 
 # Install Python dependencies
 pip install flask opencv-python numpy firebase-admin
-# (Add any other specific dependencies like 'ultralytics' or 'tensorflow' if used in your ML models)
 ```
 
 Start the Flask server:
@@ -113,8 +112,4 @@ The server will typically run on `http://127.0.0.1:5000`.
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-
-[MIT](https://choosealicense.com/licenses/mit/)
 
